@@ -41,6 +41,9 @@ h4 ul {
     gap: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#ffffff;
+    transition: background-color 0.3s ease;
+    margin-right: 50px;
+    font-size: small;
 }
 
 h4 ul li {
@@ -53,6 +56,7 @@ h4 ul li a {
     padding: 10px 10px;
     text-decoration: none;
     font-size: 1.2em;
+
 }
 #learnmore {
     background-color: #0e7171;
@@ -132,3 +136,28 @@ footer ul {
     gap: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#footer ul li {
+    float: left;
+}
+#aboutus {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+    color : linear-gradient(to right, #151d51, #0e7171);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+}
+#signin {
+    background-color: #151d51;
+    color: rgb(42, 177, 165);
+    border: none;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+} 
+#signin:hover {
+    background-color: #0e7171;
+}  
