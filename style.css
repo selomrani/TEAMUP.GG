@@ -140,20 +140,18 @@ p {
 }
 #getstarted{
     padding: 0.8rem 2rem;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 1.2rem;
     font-weight: 600;
     background: #38bdf8;
     color: #0f172a;
     box-shadow: 0 0 15px #38bdf8;
-    border: none;
     cursor: pointer;
     transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.12s ease;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid transparent;
 }
 #getstarted:hover {
     background: #34c4f0;
@@ -186,7 +184,7 @@ span {
 }
 #learnmore{
     padding: 0.8rem 2rem;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 1.2rem;
     font-weight: 600;
     background: transparent;
@@ -195,9 +193,15 @@ span {
     border: 2px solid #38bdf8;
     cursor: pointer;
     transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.12s ease;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+.homebuttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
