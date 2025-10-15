@@ -32,7 +32,7 @@ nav{
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #38bdf8;
+    color: white;
     letter-spacing: 1px;
     margin-right: auto;
 }
@@ -204,4 +204,13 @@ span {
     align-items: center;
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+#learnmore:hover {
+    color: #38bdf8;
+    box-shadow: 0 0 25px #38bdf8;
+    transform: translateY(-2px);
+}
+#logotext {
+    color: #38bdf8;
+    font-weight: 700;
 }
