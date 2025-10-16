@@ -27,7 +27,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    position:sticky ;
+    position:relative ;
 }
 .logo {
     font-size: 1.8rem;
@@ -463,8 +463,15 @@ span {
     box-shadow: 0 0 25px #34c4f0;
     transform: translateY(-2px);
 }
-#post-form input,
+#post-form form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 100%;
+            max-width: 500px;
+        }
 
+        #post-form input,
         #post-form textarea {
             width: 100%;
             padding: 0.65rem 0.75rem;
@@ -487,7 +494,7 @@ span {
         }
 
         #post-form button[type="submit"] {
-            padding: 0.7rem 1rem;
+            padding: 0.7rem 1.5rem;
             border-radius: 6px;
             border: none;
             background: #34c4f0;
@@ -495,6 +502,9 @@ span {
             font-weight: 600;
             cursor: pointer;
             transition: transform 0.12s ease, opacity 0.12s ease;
+            margin: 1rem auto 0;
+            display: block;
+            width: fit-content;
         }
 
         #post-form button[type="submit"]:hover {
@@ -520,10 +530,41 @@ span {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 20px;
+        flex-direction: row;
     }
     .playercard img {
-        width: 10%;
+        width: 40%;
+        border-radius: 50%;
+        border: #34c4f0 solid;
     }
-
-
+    .playercard {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #1e293b;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    flex-direction: column;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .playerpfp2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+.playerspfp_pak{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    top: 40px;
+}
 
