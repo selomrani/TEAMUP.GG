@@ -48,7 +48,6 @@ nav{
     font-weight: 400;
     text-decoration: none;
     color: #e2e8f0;
-    transition: color 0.28s ease, text-shadow 0.28s ease;
 }
 .nav-links li a:hover{
     color: #38bdf8;  
@@ -67,7 +66,6 @@ nav{
     box-shadow: 0 0 15px #38bdf8;
     border: none;
     cursor: pointer;
-    transition: 0.3s;
 }
 #buttonlogin:hover {
     background: #38bdf8;
@@ -79,7 +77,6 @@ nav{
     font-weight: 500;
     color: #e2e8f0;
     cursor: pointer;
-    transition: 0.3s;
 }
 #suptext:hover{
     color: #38bdf8;  
@@ -147,7 +144,6 @@ p {
     color: #0f172a;
     box-shadow: 0 0 15px #38bdf8;
     cursor: pointer;
-    transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.12s ease;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -192,7 +188,6 @@ span {
     box-shadow: 0 0 15px #38bdf8;
     border: 2px solid #38bdf8;
     cursor: pointer;
-    transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.12s ease;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -301,7 +296,6 @@ span {
     box-shadow: 0 0 15px #38bdf8;
     border: none;
     cursor: pointer;
-    transition: 0.3s;
     height: 40px;
 }
 #searchbutton:hover {
@@ -319,7 +313,6 @@ span {
     width: 250px;
     flex-direction: column;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .communityplatforms{
     display: flex;
@@ -343,7 +336,6 @@ span {
     box-shadow: 0 0 15px #38bdf8;
     border: none;
     cursor: pointer;
-    transition: 0.3s;
     height: 25px;
 
 }
@@ -377,7 +369,6 @@ span {
     width: 250px;
     flex-direction: column;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
 #step:hover {
@@ -475,7 +466,6 @@ span {
             color: #ffffff;
             font-weight: 600;
             cursor: pointer;
-            transition: transform 0.12s ease, opacity 0.12s ease;
             margin: 1rem auto 0;
             display: block;
             width: fit-content;
@@ -512,7 +502,6 @@ span {
     width: 250px;
     flex-direction: column;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     .playerpfp2{
         display: flex;
