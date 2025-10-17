@@ -359,23 +359,6 @@ span {
     margin-bottom: 20px;
     border-radius: 2px;
 }
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
-    .support, .playerchoice {
-        padding: 1rem 2%;
-    }
-    .communityplatforms {
-        flex-direction: column;
-        align-items: center;
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .platform {
-        width: 80%;
-    }
-}
 .steps {
     display: flex;
     gap: 2rem;
@@ -413,15 +396,6 @@ span {
 .step p {
     font-size: 1rem;
     color: #cbd5e1;
-}
-@media (max-width: 768px) {
-    .steps {
-        flex-direction: column;
-        align-items: center;
-    }
-    .step {
-        width: 80%;
-    }
 }
 #buttonlogin a {
     text-decoration: none;
@@ -511,17 +485,6 @@ span {
             transform: translateY(-2px);
             opacity: 0.95;
         }
-
-        @media (max-width: 480px) {
-            .contact-content h1 { font-size: 1.6rem; }
-            #contact-form form { gap: 0.6rem; }
-        }
-        .post-content{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            gap: 5px;
-        }
     #anotitle{
         font-size : large;
         margin-bottom: 10px;
@@ -535,7 +498,7 @@ span {
     }
     .playercard img {
         width: 40%;
-        border-radius: 50%;
+        border-radius: 100%;
         border: #34c4f0 solid;
     }
     .playercard {
@@ -566,5 +529,26 @@ span {
     gap: 50px;
     position: relative;
     top: 40px;
+}
+.gamevalo{
+    border: #ffffff solid 1px;
+    padding: 0.4rem;
+    color: #34c4f0;
+    margin: auto 1rem;
+    box-shadow: 0 0 15px #FF4655;
+    border-radius: 10px;
+}
+.gamecs2{
+    border: #ffffff solid 1px;
+    padding: 0.4rem;
+    border-radius: 10px;
+    color: #38bdf8;
+    box-shadow: 0 0 15px #FFA500;
+}
+.post-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
